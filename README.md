@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Portafolio de Evidencias — Cómputo en la Nube
 
 Portafolio académico desarrollado para la materia de Cómputo en la Nube del Instituto Tecnológico de Saltillo (TecNM). Documenta las actividades, prácticas y aprendizajes del semestre Enero–Junio 2026.
@@ -73,6 +73,3 @@ Los PDFs van en `public/pdfs/unidadN/` con nombres en minúsculas sin espacios.
 **Hugo Emilio Espinoza Tun** · No. Control 22050627  
 Ingeniería en Sistemas Computacionales · TecNM Campus Saltillo  
 Profesor: Ing. Miguel Salazar del Bosque
-=======
-# PortafolioCN
->>>>>>> 86a3100802cbcd8b9db03c24c75e4d4975d4f54d
