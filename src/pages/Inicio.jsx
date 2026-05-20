@@ -10,7 +10,7 @@ export default function Inicio() {
           <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-primary-fixed-dim/20 to-transparent pointer-events-none"></div>
 
           <div className="max-w-container-max mx-auto relative z-10">
-            <div className="flex items-start justify-between gap-8 mb-12">
+            <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-12">
               <div>
                 <div className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full font-label-mono text-caption mb-6">
                   PORTAFOLIO ACADÉMICO 2026
@@ -22,7 +22,7 @@ export default function Inicio() {
                   Cómputo en la Nube
                 </h2>
               </div>
-              <img src="/its-logo.png" alt="Logo ITS Saltillo" className="h-24 object-contain shrink-0 hidden md:block mt-8" />
+              <img src="/its-logo.png" alt="Logo ITS Saltillo" className="h-16 md:h-24 object-contain shrink-0 md:mt-8 self-start md:self-auto" />
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-gutter mt-12">
