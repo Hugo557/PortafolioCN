@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: Inter, Arial, sans-serif;
+  background: #f7fafc;
+  color: #181c1e;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid #e1e4e8;
+}
+
+.tech-card {
+  border: 1px solid #E1E4E8;
+  transition: all 0.2s ease-in-out;
+}
+
+.tech-card:hover {
+  box-shadow: 0 10px 30px -10px rgba(0, 120, 212, 0.12);
+  border-color: #0078d4;
+}
+
+.unit-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.activity-item:hover {
+  transform: translateX(4px);
+}
+
+.custom-scrollbar::-webkit-scrollbar { width: 5px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+.academic-page { box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+/* ── Dark mode ── */
+html.dark body                          { background-color: #111316 !important; color: #e2e6ea !important; }
+
+/* Fondos */
+html.dark .bg-surface,
+html.dark .bg-background               { background-color: #111316 !important; }
+html.dark .bg-white                    { background-color: #1e2227 !important; }
+html.dark .bg-surface-container-lowest { background-color: #111316 !important; }
+html.dark .bg-surface-container-low    { background-color: #1a1d22 !important; }
+html.dark .bg-surface-container        { background-color: #232730 !important; }
+html.dark .bg-surface-container-high   { background-color: #2a2f38 !important; }
+html.dark .bg-surface-dim              { background-color: #0d1014 !important; }
+html.dark .bg-surface-bright           { background-color: #1e2227 !important; }
+html.dark .bg-primary-fixed            { background-color: #003063 !important; }
+html.dark .bg-primary-fixed-dim\/20    { display: none; }
+
+/* Navbar con opacidad */
+html.dark header                        { background-color: rgba(17, 19, 22, 0.85) !important; }
+
+/* Texto */
+html.dark .text-on-surface             { color: #e2e6ea !important; }
+html.dark .text-on-surface-variant     { color: #9ea7b5 !important; }
+html.dark .text-outline                { color: #7a8290 !important; }
+html.dark .text-on-background          { color: #e2e6ea !important; }
+
+/* Bordes */
+html.dark .border-outline-variant      { border-color: #2e343d !important; }
+html.dark .border-b                    { border-color: #2e343d !important; }
+html.dark .border                      { border-color: #2e343d !important; }
+html.dark .border-l-primary            { border-left-color: #a3c9ff !important; }
+
+/* Glass cards en dark */
+html.dark .glass-card                  { background: rgba(30, 34, 39, 0.85) !important; border-color: #2e343d !important; }
+html.dark .glass-panel                 { background: rgba(30, 34, 39, 0.7) !important; }
+html.dark .tech-card                   { border-color: #2e343d !important; }
