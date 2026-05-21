@@ -1,31 +1,31 @@
 export const unidades = [
   {
     id: 1,
-    titulo: "Fundamentos y Conceptos",
+    titulo: "Introducción y Fundamentos de Cómputo en la Nube",
     descripcion: "Introducción, características y riesgos del cómputo en la nube.",
     icono: "info",
   },
   {
     id: 2,
-    titulo: "Exploración de Plataformas",
+    titulo: "Arquitectura de la Nube",
     descripcion: "Reconocimiento de AWS, Google Cloud, GitHub y Azure.",
     icono: "explore",
   },
   {
     id: 3,
-    titulo: "Microservicios y DevOps",
+    titulo: "Consideraciones para el Desarrollo",
     descripcion: "Flujos de trabajo y arquitecturas modernas.",
     icono: "developer_mode",
   },
   {
     id: 4,
-    titulo: "Ciberseguridad en la Nube",
+    titulo: "Seguridad",
     descripcion: "Prácticas de seguridad, hardening y análisis de tráfico.",
     icono: "security",
   },
   {
     id: 5,
-    titulo: "Implementación y Servicios",
+    titulo: "Diseño y Desarrollo de una Aplicación Informática en la Nube",
     descripcion: "Máquinas virtuales, Docker, entornos LAMP y migraciones.",
     icono: "settings_system_daydream",
   },
@@ -38,10 +38,10 @@ export const evidencias = [
     titulo: "Arquitectura de red de computadoras",
     pdf: "/pdfs/unidad1/1.1-arquitectura-red.pdf",
     tipo: "Documento",
-    descripcion: "Actividad donde se identifican los elementos básicos de una arquitectura de red y su relación con servicios en la nube.",
+    descripcion: "Identificación y análisis de los componentes de una arquitectura de red de computadoras, incluyendo topologías, protocolos de comunicación y su relación con los servicios en la nube.",
     fecha: "6 de febrero de 2026",
-    resultados: "Se reconocieron componentes como nodos, servidores, clientes, enlaces y servicios de red.",
-    reflexion: "Esta evidencia ayudó a reforzar la base necesaria para comprender cómo se comunican los servicios en la nube.",
+    resultados: "Se comprendió cómo los elementos de una red (routers, switches, servidores, clientes) interactúan mediante protocolos como TCP/IP, y cómo esta base sustenta la infraestructura cloud.",
+    reflexion: "Entender la arquitectura de red es fundamental antes de abordar servicios cloud, ya que la nube opera sobre los mismos principios de conectividad y comunicación.",
     anexos: "PDF de la actividad."
   },
   {
@@ -50,10 +50,10 @@ export const evidencias = [
     titulo: "Síntesis de las Características de concepto de Cómputo en la Nube",
     pdf: "/pdfs/unidad1/1.2-sintesis-cloud.pdf",
     tipo: "Síntesis",
-    descripcion: "Síntesis sobre las características principales del cómputo en la nube.",
+    descripcion: "Elaboración de una síntesis sobre las características esenciales del cómputo en la nube: autoservicio bajo demanda, acceso amplio a la red, agrupación de recursos, elasticidad rápida y servicio medido.",
     fecha: "4 de febrero de 2026",
-    resultados: "Se comprendieron conceptos como escalabilidad, disponibilidad y pago por uso.",
-    reflexion: "Me ayudó a entender por qué la nube es importante en proyectos modernos.",
+    resultados: "Se identificaron los cinco pilares del cómputo en la nube según el NIST, diferenciando modelos de servicio (IaaS, PaaS, SaaS) y modelos de despliegue (pública, privada, híbrida).",
+    reflexion: "Conocer las características formales del cloud computing permite evaluar qué tipo de servicio o modelo se adapta mejor a cada proyecto o necesidad empresarial.",
     anexos: "PDF de la síntesis."
   },
   {
@@ -62,10 +62,10 @@ export const evidencias = [
     titulo: "Ventajas, Desventajas y Riesgos del Cómputo en la Nube",
     pdf: "/pdfs/unidad1/1.3-ventajas-riesgos.pdf",
     tipo: "Reporte",
-    descripcion: "Análisis de ventajas, desventajas y riesgos del uso de servicios cloud.",
+    descripcion: "Análisis comparativo de las ventajas operativas, desventajas técnicas y riesgos estratégicos del uso de servicios de cómputo en la nube en entornos empresariales.",
     fecha: "5 de febrero de 2026",
-    resultados: "Se identificaron ventajas como flexibilidad y riesgos como dependencia del proveedor.",
-    reflexion: "Esta evidencia permitió ver que la nube no solo es técnica, también implica decisiones estratégicas.",
+    resultados: "Se identificaron ventajas como reducción de costos y escalabilidad; desventajas como dependencia del proveedor y latencia; y riesgos como pérdida de control sobre los datos y cumplimiento normativo.",
+    reflexion: "Adoptar cloud computing no es solo una decisión técnica, también implica evaluar riesgos de seguridad, privacidad y continuidad del negocio antes de migrar.",
     anexos: "PDF del análisis."
   },
   {
@@ -74,10 +74,10 @@ export const evidencias = [
     titulo: "Mapa mental de los elementos del Cómputo en la Nube",
     pdf: "/pdfs/unidad1/1.4-mapa-mental.pdf",
     tipo: "Mapa mental",
-    descripcion: "Mapa mental con los elementos principales del cómputo en la nube.",
+    descripcion: "Construcción de un mapa mental que organiza visualmente los elementos, modelos y características del cómputo en la nube, interconectando conceptos como servicios, seguridad, proveedores y arquitectura.",
     fecha: "9 de febrero de 2026",
-    resultados: "Se integraron conceptos de servicios, modelos, proveedores y seguridad.",
-    reflexion: "Me ayudó a ordenar los conceptos del curso de forma más clara.",
+    resultados: "Se sintetizaron y relacionaron los conceptos del curso en una estructura visual que facilita la comprensión, conectando modelos de servicio, tipos de despliegue y características principales.",
+    reflexion: "La elaboración del mapa mental ayudó a consolidar el aprendizaje al forzar la conexión entre conceptos que inicialmente parecían independientes.",
     anexos: "PDF o imagen del mapa mental."
   },
   {
@@ -86,11 +86,11 @@ export const evidencias = [
     titulo: "Explorar la plataforma AWS",
     pdf: "/pdfs/unidad2/2.1-aws.pdf",
     tipo: "Bitácora",
-    descripcion: "Exploración inicial de la plataforma AWS.",
+    descripcion: "Exploración de la consola de Amazon Web Services, reconociendo los servicios principales de cómputo, almacenamiento, redes e identidad disponibles en la plataforma.",
     fecha: "13 de febrero de 2026",
-    resultados: "Se identificaron servicios principales como EC2, S3, IAM y Lambda.",
-    reflexion: "Me permitió conocer cómo se organiza una plataforma cloud real.",
-    anexos: "Capturas o PDF de la exploración."
+    resultados: "Se identificaron servicios como EC2 (cómputo), S3 (almacenamiento), IAM (gestión de identidades) y Lambda (cómputo sin servidor), comprendiendo su propósito dentro de una arquitectura cloud.",
+    reflexion: "AWS es la plataforma cloud más utilizada a nivel mundial; conocer su estructura y servicios es una habilidad directamente aplicable en el mercado laboral.",
+    anexos: "PDF de la exploración."
   },
   {
     id: "2.2",
@@ -98,10 +98,10 @@ export const evidencias = [
     titulo: "Explorar plataforma Google Cloud",
     pdf: "/pdfs/unidad2/2.2-google-cloud.pdf",
     tipo: "Bitácora",
-    descripcion: "Exploración inicial de Google Cloud Platform.",
+    descripcion: "Exploración de Google Cloud Platform, navegando por su consola e identificando servicios de cómputo, almacenamiento, bases de datos y análisis de datos disponibles en la plataforma.",
     fecha: "20 de febrero de 2026",
-    resultados: "Se reconocieron servicios de cómputo, almacenamiento y análisis.",
-    reflexion: "Ayudó a comparar diferentes proveedores de nube.",
+    resultados: "Se reconocieron servicios como Compute Engine, Cloud Storage, BigQuery y Cloud Functions, comparando su equivalencia con servicios de AWS y Azure.",
+    reflexion: "Explorar múltiples plataformas permite entender que los conceptos cloud son transferibles entre proveedores, aunque cada uno tiene su propia interfaz y nomenclatura.",
     anexos: "PDF de la práctica."
   },
   {
@@ -110,10 +110,10 @@ export const evidencias = [
     titulo: "Actividad GitHub",
     pdf: "/pdfs/unidad2/2.3-github.pdf",
     tipo: "Repositorio",
-    descripcion: "Actividad relacionada con el uso de GitHub para control de versiones.",
+    descripcion: "Actividad práctica de uso de GitHub para control de versiones, creación de repositorios, gestión de commits y organización de archivos en un flujo de trabajo colaborativo.",
     fecha: "25 de febrero de 2026",
-    resultados: "Se trabajó con repositorios y organización de archivos.",
-    reflexion: "GitHub es importante para documentar y compartir proyectos técnicos.",
+    resultados: "Se practicó el flujo básico de Git: init, add, commit, push y pull, comprendiendo la importancia del control de versiones en proyectos de desarrollo y documentación técnica.",
+    reflexion: "GitHub no es solo una herramienta de código; es una plataforma esencial para documentar, compartir y versionar cualquier tipo de proyecto técnico.",
     anexos: "PDF o enlace del repositorio."
   },
   {
@@ -122,10 +122,10 @@ export const evidencias = [
     titulo: "Explorar la plataforma MS Azure",
     pdf: "/pdfs/unidad2/2.4-azure.pdf",
     tipo: "Bitácora",
-    descripcion: "Exploración de Microsoft Azure y sus servicios principales.",
+    descripcion: "Exploración del portal de Microsoft Azure, identificando grupos de recursos, regiones, suscripciones y los servicios principales de cómputo, red y almacenamiento disponibles.",
     fecha: "21 de marzo de 2026",
-    resultados: "Se identificaron recursos como grupos, máquinas virtuales y redes.",
-    reflexion: "Azure fue clave para comprender prácticas posteriores de despliegue.",
+    resultados: "Se comprendió la estructura organizacional de Azure (tenants, suscripciones, grupos de recursos) y se identificaron servicios como Virtual Machines, Blob Storage y Azure Active Directory.",
+    reflexion: "Azure tiene una fuerte integración con el ecosistema de Microsoft, lo que lo convierte en la opción preferida para empresas que ya utilizan herramientas como Office 365 o Windows Server.",
     anexos: "PDF de la exploración."
   },
   {
@@ -134,10 +134,10 @@ export const evidencias = [
     titulo: "Sinopsis de los microservicios y flujo DevOps",
     pdf: "/pdfs/unidad3/3.1-microservicios-devops.pdf",
     tipo: "Sinopsis",
-    descripcion: "Resumen sobre microservicios y flujo DevOps.",
+    descripcion: "Elaboración de una sinopsis que describe la arquitectura de microservicios, el flujo de trabajo DevOps y su relación con prácticas de integración y entrega continua (CI/CD).",
     fecha: "26 de febrero de 2026",
-    resultados: "Se comprendieron conceptos como CI/CD, despliegue continuo y arquitectura modular.",
-    reflexion: "Esta evidencia mostró cómo se organizan aplicaciones modernas.",
+    resultados: "Se comprendió cómo una aplicación monolítica puede descomponerse en servicios independientes, y cómo DevOps automatiza el ciclo de vida del software mediante pipelines de CI/CD.",
+    reflexion: "La combinación de microservicios y DevOps representa el estándar actual para el desarrollo de aplicaciones modernas escalables, y entenderlos abre la puerta a roles de desarrollo e infraestructura cloud.",
     anexos: "PDF de la sinopsis."
   },
   {
@@ -146,10 +146,10 @@ export const evidencias = [
     titulo: "Práctica de seguridad informática escalada de privilegios",
     pdf: "/pdfs/unidad4/4.1-escalada-privilegios.pdf",
     tipo: "Práctica",
-    descripcion: "Práctica de seguridad relacionada con escalada de privilegios.",
+    descripcion: "Práctica de seguridad enfocada en la escalada de privilegios en sistemas Linux, identificando vulnerabilidades en permisos mal configurados que permiten obtener acceso con mayores privilegios.",
     fecha: "5 de marzo de 2026",
-    resultados: "Se identificó la importancia de permisos y privilegios.",
-    reflexion: "Me ayudó a entender por qué la seguridad debe cuidarse desde la configuración del sistema.",
+    resultados: "Se identificaron técnicas de escalada de privilegios como el abuso de binarios SUID, permisos incorrectos en archivos sudo y configuraciones débiles del sistema operativo.",
+    reflexion: "La escalada de privilegios es una de las técnicas más utilizadas en ataques reales; comprender cómo funciona es esencial para configurar sistemas seguros desde el inicio.",
     anexos: "PDF de la práctica."
   },
   {
@@ -158,10 +158,10 @@ export const evidencias = [
     titulo: "Demostrar la inyección SQL",
     pdf: "/pdfs/unidad4/4.2-inyeccion-sql.pdf",
     tipo: "Práctica",
-    descripcion: "Demostración controlada de inyección SQL con fines académicos.",
+    descripcion: "Demostración controlada de inyección SQL en un entorno académico, manipulando consultas a bases de datos mediante entradas no validadas para extraer o alterar información.",
     fecha: "19 de marzo de 2026",
-    resultados: "Se identificó la importancia de validar entradas y usar consultas preparadas.",
-    reflexion: "La práctica mostró la importancia de programar con seguridad.",
+    resultados: "Se comprendió cómo una entrada maliciosa puede alterar la lógica de una consulta SQL, y se identificaron las contramedidas: consultas preparadas, validación de entradas y uso de ORM.",
+    reflexion: "La inyección SQL sigue siendo una de las vulnerabilidades más comunes del OWASP Top 10; cualquier desarrollador debe conocerla para escribir código que la prevenga desde el diseño.",
     anexos: "PDF de la evidencia."
   },
   {
@@ -170,10 +170,10 @@ export const evidencias = [
     titulo: "Seguridad (hardening) en servidor web Apache 2",
     pdf: "/pdfs/unidad4/4.3-hardening-apache.pdf",
     tipo: "Práctica",
-    descripcion: "Configuración de seguridad básica en Apache 2.",
+    descripcion: "Aplicación de medidas de endurecimiento (hardening) en un servidor web Apache 2, configurando directivas de seguridad para reducir la superficie de ataque y proteger el servicio.",
     fecha: "20 de marzo de 2026",
-    resultados: "Se reforzó la configuración del servidor para reducir riesgos.",
-    reflexion: "Me ayudó a ver que un servidor funcional no necesariamente es seguro.",
+    resultados: "Se aplicaron configuraciones como deshabilitar el listado de directorios, ocultar la versión del servidor, configurar cabeceras de seguridad HTTP y restringir métodos HTTP no necesarios.",
+    reflexion: "Un servidor web recién instalado no es seguro por defecto; el hardening es un paso obligatorio antes de exponer cualquier servicio a internet.",
     anexos: "PDF de la práctica."
   },
   {
@@ -182,10 +182,10 @@ export const evidencias = [
     titulo: "Comandos Dorks de Google",
     pdf: "/pdfs/unidad4/4.5-google-dorks.pdf",
     tipo: "Investigación",
-    descripcion: "Uso académico de búsquedas avanzadas para identificar exposición de información.",
+    descripcion: "Investigación sobre el uso de operadores avanzados de búsqueda de Google (Dorks) para localizar información sensible expuesta públicamente, como archivos de configuración, contraseñas y paneles de administración.",
     fecha: "9 de marzo de 2026",
-    resultados: "Se identificó la importancia de controlar información publicada en internet.",
-    reflexion: "La evidencia ayudó a entender riesgos de exposición de datos.",
+    resultados: "Se practicó el uso de operadores como site:, filetype:, intitle: e inurl: para encontrar recursos expuestos, comprendiendo el riesgo que representa la información indexada inadvertidamente.",
+    reflexion: "Google Dorks es una herramienta de OSINT que cualquier atacante puede usar sin acceso directo a los sistemas; controlar la información publicada en internet es parte esencial de la seguridad organizacional.",
     anexos: "PDF de la actividad."
   },
   {
@@ -194,10 +194,10 @@ export const evidencias = [
     titulo: "Lluvia de conceptos de los aspectos de la ciberseguridad en la nube",
     pdf: "/pdfs/unidad4/4.6-conceptos-ciberseguridad.pdf",
     tipo: "Actividad",
-    descripcion: "Lluvia de ideas sobre conceptos clave de ciberseguridad cloud.",
+    descripcion: "Actividad de lluvia de ideas para identificar y organizar los aspectos clave de la ciberseguridad aplicada al cómputo en la nube, abarcando desde gestión de identidades hasta monitoreo y respuesta a incidentes.",
     fecha: "11 de marzo de 2026",
-    resultados: "Se agruparon conceptos como IAM, cifrado, monitoreo y políticas.",
-    reflexion: "Ayudó a reforzar vocabulario técnico de ciberseguridad.",
+    resultados: "Se agruparon conceptos esenciales como IAM, cifrado en tránsito y en reposo, segmentación de red, principio de mínimo privilegio, monitoreo continuo y gestión de vulnerabilidades.",
+    reflexion: "La ciberseguridad en la nube no es un producto sino un proceso continuo que abarca personas, procesos y tecnología; conocer su vocabulario es el primer paso para implementarla correctamente.",
     anexos: "PDF de la actividad."
   },
   {
@@ -206,10 +206,10 @@ export const evidencias = [
     titulo: "Encontrar la contraseña (OverTheWire)",
     pdf: "/pdfs/unidad4/4.7-overthewire.pdf",
     tipo: "Práctica",
-    descripcion: "Práctica tipo reto usando OverTheWire.",
+    descripcion: "Resolución de retos del juego de guerra Bandit de OverTheWire, practicando comandos de terminal Linux para navegar el sistema de archivos, leer archivos ocultos y encontrar contraseñas mediante pistas progresivas.",
     fecha: "11 de marzo de 2026",
-    resultados: "Se practicó navegación, lectura de archivos y comandos de terminal.",
-    reflexion: "Me ayudó a mejorar mi manejo de terminal y lógica de resolución de problemas.",
+    resultados: "Se practicaron comandos como ls -la, find, file, strings, cat y ssh, fortaleciendo el dominio del entorno Linux como base para administración de servidores y seguridad informática.",
+    reflexion: "OverTheWire enseña seguridad de forma práctica y progresiva; cada nivel obliga a investigar y pensar de forma diferente, desarrollando habilidades de análisis que van más allá de memorizar comandos.",
     anexos: "PDF de evidencia."
   },
   {
@@ -218,10 +218,10 @@ export const evidencias = [
     titulo: "Amenazas y Riesgos en Cómputo en la Nube",
     pdf: "/pdfs/unidad4/4.8-amenazas-riesgos-cloud.pdf",
     tipo: "Reporte",
-    descripcion: "Análisis de amenazas y riesgos en cloud computing.",
+    descripcion: "Análisis y clasificación de las principales amenazas y riesgos presentes en entornos de cómputo en la nube, basado en frameworks de seguridad como la lista de amenazas de la Cloud Security Alliance (CSA).",
     fecha: "19 de marzo de 2026",
-    resultados: "Se clasificaron amenazas relacionadas con acceso, datos y disponibilidad.",
-    reflexion: "Esta actividad reforzó la importancia de evaluar riesgos antes de desplegar servicios.",
+    resultados: "Se clasificaron amenazas como brechas de datos, secuestro de cuentas, interfaces inseguras, amenazas internas y configuraciones incorrectas como los vectores de ataque más frecuentes en entornos cloud.",
+    reflexion: "Conocer el panorama de amenazas cloud permite tomar decisiones de arquitectura más conscientes, priorizando controles de seguridad donde el riesgo es mayor.",
     anexos: "PDF del análisis."
   },
   {
@@ -230,10 +230,10 @@ export const evidencias = [
     titulo: "Políticas de ciberseguridad en CN",
     pdf: "/pdfs/unidad4/4.9-politicas-ciberseguridad.pdf",
     tipo: "Documento",
-    descripcion: "Documento sobre políticas de ciberseguridad aplicables a cómputo en la nube.",
+    descripcion: "Elaboración de políticas de ciberseguridad aplicables a entornos de cómputo en la nube, definiendo controles, responsabilidades y buenas prácticas para proteger recursos y datos.",
     fecha: "23 de marzo de 2026",
-    resultados: "Se identificaron controles y buenas prácticas de seguridad.",
-    reflexion: "Me ayudó a entender que la seguridad también depende de reglas y procesos.",
+    resultados: "Se redactaron políticas relacionadas con gestión de accesos, uso aceptable de recursos cloud, cifrado de datos, respuesta a incidentes y auditoría de actividad.",
+    reflexion: "Las políticas de seguridad son el marco que guía el comportamiento de personas y sistemas; sin ellas, los controles técnicos pierden efectividad porque no hay una dirección clara a seguir.",
     anexos: "PDF de la actividad."
   },
   {
@@ -242,10 +242,10 @@ export const evidencias = [
     titulo: "Análisis de tráfico de red con Wireshark para la prevención de ataques",
     pdf: "/pdfs/unidad4/4.10-wireshark.pdf",
     tipo: "Práctica",
-    descripcion: "Práctica de análisis de tráfico con Wireshark.",
+    descripcion: "Uso de Wireshark para capturar y analizar tráfico de red, identificando patrones sospechosos, conexiones no autorizadas y posibles indicadores de compromiso.",
     fecha: "25 de marzo de 2026",
-    resultados: "Se analizaron paquetes y patrones de tráfico.",
-    reflexion: "Me ayudó a conectar redes con ciberseguridad práctica.",
+    resultados: "Wireshark permite inspeccionar paquetes a nivel de protocolo, identificar handshakes incompletos, tráfico cifrado inesperado y comunicaciones con direcciones IP maliciosas.",
+    reflexion: "El análisis de tráfico de red es una habilidad esencial para la detección temprana de intrusiones, pero requiere práctica para distinguir entre tráfico normal y malicioso.",
     anexos: "PDF de evidencia."
   },
   {
@@ -254,10 +254,10 @@ export const evidencias = [
     titulo: "Análisis y Diseño de una Arquitectura de Red en la Nube (Caso Real)",
     pdf: "/pdfs/unidad5/5.2-arquitectura-red-cloud.pdf",
     tipo: "Documentación",
-    descripcion: "Diseño de arquitectura de red en la nube basado en un caso real.",
+    descripcion: "Análisis y diseño de una arquitectura de red en la nube basada en un caso real, definiendo la estructura de recursos, redes virtuales, segmentos, grupos de seguridad y servicios necesarios.",
     fecha: "16 de abril de 2026",
-    resultados: "Se diseñó una estructura con recursos, red y servicios.",
-    reflexion: "Me ayudó a pensar como se estructura una solución en la nube.",
+    resultados: "Se diseñó una arquitectura con redes virtuales, subredes públicas y privadas, grupos de seguridad de red, balanceadores de carga y separación entre capas de presentación, lógica y datos.",
+    reflexion: "Diseñar una arquitectura cloud antes de implementarla evita problemas costosos de seguridad y escalabilidad; pensar en la red desde el inicio es tan importante como el código de la aplicación.",
     anexos: "PDF de documentación."
   },
   {
@@ -266,10 +266,10 @@ export const evidencias = [
     titulo: "Curso introducción a la contenerización y virtualización",
     pdf: "/pdfs/unidad5/5.3-contenedorizacion-virtualizacion.pdf",
     tipo: "Curso",
-    descripcion: "Evidencia de curso introductorio sobre contenedores y virtualización.",
+    descripcion: "Curso introductorio sobre los conceptos de contenedorización y virtualización, diferenciando máquinas virtuales y contenedores en términos de aislamiento, rendimiento y casos de uso.",
     fecha: "21 de abril de 2026",
-    resultados: "Se entendió cómo los contenedores ayudan a empaquetar aplicaciones.",
-    reflexion: "La actividad fue útil para entender por qué Docker es tan usado.",
+    resultados: "Se comprendió que las VMs virtualizan hardware completo mientras que los contenedores comparten el kernel del sistema operativo, siendo más ligeros y portables. Docker fue identificado como la herramienta estándar de contenedorización.",
+    reflexion: "Entender la diferencia entre virtualización y contenedorización es clave para elegir la tecnología correcta según los requisitos de aislamiento, rendimiento y portabilidad de cada aplicación.",
     anexos: "Certificado o PDF."
   },
   {
@@ -278,10 +278,10 @@ export const evidencias = [
     titulo: "Instalación de Docker",
     pdf: "/pdfs/unidad5/5.4-docker.pdf",
     tipo: "Guía",
-    descripcion: "Instalación y pruebas básicas de Docker.",
+    descripcion: "Instalación y configuración de Docker en una máquina virtual, seguida de pruebas básicas para verificar su funcionamiento mediante la ejecución de contenedores de prueba y comandos básicos de Docker CLI.",
     fecha: "22 de abril de 2026",
-    resultados: "Docker quedó instalado y se realizaron pruebas iniciales.",
-    reflexion: "Me permitió entender cómo iniciar un entorno de contenedores.",
+    resultados: "Se instaló Docker Engine, se verificó su funcionamiento con docker run hello-world, y se practicaron comandos como docker ps, docker images, docker pull y docker stop para gestionar contenedores.",
+    reflexion: "Docker simplifica enormemente la distribución y ejecución de aplicaciones; una vez instalado, la curva de aprendizaje se vuelve práctica y directa con cada contenedor que se ejecuta.",
     anexos: "PDF de evidencia."
   },
   {
@@ -290,10 +290,10 @@ export const evidencias = [
     titulo: "Creación de VM en la nube",
     pdf: "/pdfs/unidad5/5.7-vm-nube.pdf",
     tipo: "Bitácora",
-    descripcion: "Creación de una máquina virtual en la nube y conexión por SSH.",
+    descripcion: "Creación de una máquina virtual en Microsoft Azure, configurando región, sistema operativo Ubuntu, tamaño, red virtual y acceso mediante clave SSH para conexión remota.",
     fecha: "24 de abril de 2026",
-    resultados: "Se creó una máquina virtual y se validó la conexión.",
-    reflexion: "Fue una práctica clave para entender infraestructura básica cloud.",
+    resultados: "Se desplegó una VM Ubuntu en Azure y se estableció conexión SSH exitosa desde terminal local, verificando el acceso al sistema operativo y la conectividad de red de la instancia.",
+    reflexion: "Crear y conectarse a una VM en la nube es la operación más fundamental de infraestructura cloud; dominar este proceso es la puerta de entrada a cualquier práctica avanzada de servidores.",
     anexos: "PDF con capturas."
   },
   {
@@ -302,10 +302,10 @@ export const evidencias = [
     titulo: "Instalación del entorno LAMP en una máquina virtual",
     pdf: "/pdfs/unidad5/5.8-lamp.pdf",
     tipo: "Bitácora",
-    descripcion: "Instalación de Linux, Apache, base de datos y PHP en una VM cloud.",
+    descripcion: "Instalación y configuración de un entorno LAMP (Linux, Apache, MariaDB y PHP) en una máquina virtual en la nube, preparando un servidor web funcional capaz de alojar aplicaciones dinámicas.",
     fecha: "28 de abril de 2026",
-    resultados: "Se instaló y validó un entorno LAMP funcional.",
-    reflexion: "Me ayudó a comprender cómo se prepara un servidor para alojar aplicaciones web.",
+    resultados: "Se instalaron y configuraron Apache como servidor web, MariaDB como base de datos relacional y PHP como lenguaje de servidor. Se verificó el stack completo con una página PHP conectada a la base de datos.",
+    reflexion: "El stack LAMP es la base de millones de aplicaciones web; instalarlo en una VM cloud enseña tanto administración de servidores como la integración entre las capas de una aplicación.",
     anexos: "PDF de evidencia."
   },
   {
@@ -314,10 +314,10 @@ export const evidencias = [
     titulo: "Despliegue de aplicación CRUD en la nube",
     pdf: "/pdfs/unidad5/5.9-crud-nube.pdf",
     tipo: "Reporte",
-    descripcion: "Despliegue de una aplicación CRUD en infraestructura cloud.",
+    descripcion: "Despliegue de una aplicación web con operaciones CRUD (Create, Read, Update, Delete) en infraestructura cloud, conectada a una base de datos MariaDB y servida mediante Apache con PHP en una VM de Azure.",
     fecha: "29 de abril de 2026",
-    resultados: "La aplicación CRUD quedó funcionando en la nube.",
-    reflexion: "Fue una de las prácticas más completas porque integró varias tecnologías.",
+    resultados: "Se desplegó una aplicación funcional con formularios para crear, listar, editar y eliminar registros en base de datos, accesible desde internet a través de la IP pública de la VM.",
+    reflexion: "Desplegar un CRUD completo en la nube integra todos los elementos del curso: VM, red, servidor web, base de datos y código; ver la aplicación funcionando en internet fue la validación más concreta del aprendizaje.",
     anexos: "PDF y capturas."
   },
   {
@@ -326,10 +326,10 @@ export const evidencias = [
     titulo: "Migración a servicios administrados",
     pdf: "/pdfs/unidad5/5.10-migracion-servicios-administrados.pdf",
     tipo: "Reporte",
-    descripcion: "Migración de una solución hacia servicios administrados.",
+    descripcion: "Migración de la aplicación CRUD desplegada en una VM hacia servicios administrados de Azure, utilizando Azure App Service para el hosting y una base de datos administrada con variables de entorno para las credenciales.",
     fecha: "7 de mayo de 2026",
-    resultados: "Se comprendieron ventajas de usar servicios administrados.",
-    reflexion: "La actividad mostró que la nube puede reducir administración manual y mejorar escalabilidad.",
+    resultados: "Se migró la aplicación a App Service eliminando la necesidad de administrar el servidor subyacente, conectándola a una base de datos administrada mediante variables de entorno.",
+    reflexion: "Los servicios administrados reducen la carga operativa al delegar la administración de infraestructura al proveedor cloud, permitiendo enfocarse en el código en lugar de en la configuración del servidor.",
     anexos: "PDF de evidencia."
   }
 ];
